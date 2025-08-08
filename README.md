@@ -1,60 +1,45 @@
-# Cognito-xo
+# AI Mental Health Companion
 
-A modern educational platform powered by LLM (Large Language Models) to help users learn any topic of their choice.
+A supportive, voice-first mental health assistant powered by LLMs. It guides users through brief check-ins, grounding and mindfulness exercises, and practical coping strategies tailored to their selected focus areas.
 
 ## 🚀 Features
 
-- AI-powered learning assistance
-- Interactive learning experience
-- Personalized learning paths
-- Real-time topic exploration
-- Comprehensive topic coverage
-- Progress tracking
-- Learning history
-- Topic bookmarking
-- Custom learning goals
+- Empathetic, voice-first support sessions
+- Real-time conversation with speech-to-text and text-to-speech
+- Focus areas like stress, anxiety, sleep, mindfulness, relationships, depression
+- Practical tools: mindful breathing, 5-4-3-2-1 grounding, reframing, journaling prompts
+- Session history and bookmarks
+- Personalization: name, focus area, voice, and style
+- Privacy- and safety-aware guidance (not a substitute for professional care)
 - Multi-language support
 
 ## 💡 How It Works
 
-### AI Learning Assistant
-- Powered by advanced LLM technology
-- Natural language interaction
-- Context-aware responses
-- Adaptive learning patterns
-- Real-time topic explanations
+### AI Mental Health Companion
+- Empathetic, non-judgmental conversation
+- Context-aware support aligned to selected focus areas
+- Short, voice-friendly responses with gentle prompts
+- Safety-aware guidance (encourages crisis resources when appropriate)
 
-### Learning Experience
-- Interactive Q&A sessions
-- Step-by-step topic breakdowns
-- Visual learning aids
-- Practice exercises
-- Progress assessment
-- Learning recommendations
+### Support Experience
+- Interactive check-ins and reflective listening
+- Short mindfulness and grounding exercises
+- Simple, actionable coping strategies
+- Gentle summaries and next-step suggestions
 
 ### User Features
-- Personalized learning dashboard
-- Topic search and discovery
-- Learning progress tracking
-- Bookmark favorite topics
-- Learning history review
-- Custom learning goals
+- Personalized dashboard for sessions and bookmarks
+- Search and discovery across focus areas
+- History of recent sessions
+- Bookmark companions for quick access
 
-### Content Management
-- Dynamic content generation
-- Topic categorization
-- Difficulty levels
-- Learning resources
-- Reference materials
-- External resource links
+### Companion Configuration
+- Name, focus area, preferred voice, and conversation style
+- Ready-to-use examples for common focus areas
 
-### Learning Analytics
-- Progress tracking
-- Learning patterns
-- Topic mastery levels
-- Time spent learning
-- Achievement tracking
-- Learning recommendations
+### Insights
+- Recent sessions overview
+- Time spent in sessions
 
 ## 📋 Prerequisites
 
@@ -62,13 +47,14 @@ A modern educational platform powered by LLM (Large Language Models) to help use
 - npm or yarn
 - Supabase account
 - Clerk account
+ - Vapi account (for real-time voice) and Web token
 
 ## 🛠️ Installation
 
 1. Clone the repository:
 ```bash
 git clone [your-repository-url]
-cd kgm_saas
+cd saas-app
 ```
 
 2. Install dependencies:
@@ -85,6 +71,7 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_VAPI_WEB_TOKEN=your_vapi_web_token
 ```
 
 ## 🚀 Development

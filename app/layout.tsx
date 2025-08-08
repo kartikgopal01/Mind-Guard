@@ -10,8 +10,8 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Cognito AI",
-  description: "Real-time AI Teaching Platform",
+  title: "Mind Guard",
+  description: "Real-time AI Mental Health Assistant",
   icons: {
     icon: [
       {
