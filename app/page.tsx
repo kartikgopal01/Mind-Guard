@@ -13,29 +13,32 @@ const Page = async () => {
     const recentSessionsCompanions = await getRecentSessions(10);
 
   return (
-    <main>
-      <h1>Popular Companions</h1>
+    // <main>
+    //   <h1>Popular Companions</h1>
 
-        <section className="home-section">
-            {companions.map((companion) => (
-                <CompanionCard
-                    key={companion.id}
-                    {...companion}
-                    color={getSubjectColor(companion.subject)}
-                />
-            ))}
+    //     <section className="home-section">
+    //         {companions.map((companion) => (
+    //             <CompanionCard
+    //                 key={companion.id}
+    //                 {...companion}
+    //                 color={getSubjectColor(companion.subject)}
+    //             />
+    //         ))}
 
-        </section>
+    //     </section>
 
-        <section className="home-section">
-            <CompanionsList
-                title="Recently completed sessions"
-                companions={recentSessionsCompanions}
-                classNames="w-2/3 max-lg:w-full"
-            />
-            <CTA />
-        </section>
-    </main>
+    //     <section className="home-section">
+    //         <CompanionsList
+    //             title="Recently completed sessions"
+    //             companions={recentSessionsCompanions}
+    //             classNames="w-2/3 max-lg:w-full"
+    //         />
+    //         <CTA />
+    //     </section>
+    // </main>
+    <>
+    <h1 className="text-4xl font-bold text-center text-red-500">Hehehehehehehehe😁... all the best for your presentation</h1>
+    </>
   )
 }
 
